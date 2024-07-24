@@ -7,3 +7,46 @@ adb6c4
 001b2e
 */
 
+body {
+    background-color: #FFEFD3;
+    font-family: Arial, Helvetica, Arial, Helvetica, sans-serif;
+}
+
+nav {
+    clear: both;
+    text-align: center;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #a38064;
+
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 30px;
+    font-size: 20px;
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+nav li a:hover {
+    background-color: #294c60;
+}
+
+#top_banner img {
+    float: left;
+    width: 1905px;
+    height: 400px;
+}
