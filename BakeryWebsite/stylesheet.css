@@ -8,8 +8,16 @@ adb6c4
 */
 
 body {
-    background-color: #FFEFD3;
-    font-family: Arial, Helvetica, Arial, Helvetica, sans-serif;
+    background-color: #f2eadf;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+#logo img {
+    width: 250px;
+    float: left;
+    padding-left: 800px;
+    height: 125px; 
+    object-fit: cover;
 }
 
 nav {
@@ -23,7 +31,7 @@ nav ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #a38064;
+    background-color: #2f1b12;
 
 }
 
@@ -36,8 +44,8 @@ nav li a {
     text-decoration: none;
     text-align: center;
     padding: 14px 30px;
-    font-size: 20px;
-    color: #ffffff;
+    font-size: 30px;
+    color: #af9178;
     transition: 0.5s;
 }
 
@@ -46,7 +54,15 @@ nav li a:hover {
 }
 
 #top_banner img {
+    width: 1885px;
+}
+
+#intro_content h1 {
     float: left;
-    width: 1905px;
-    height: 400px;
+    font-size: 80px;
+}
+
+#intro_content img {
+    float: left;
+    padding-left: 1000px;
 }
