@@ -7,6 +7,12 @@ adb6c4
 001b2e
 */
 
+div#index_content {
+    width: 1885px;
+    float: center;
+    margin:0 auto;
+}
+
 body {
     background-color: #f2eadf;
     font-family: Georgia, 'Times New Roman', Times, serif
@@ -46,24 +52,44 @@ nav li a {
     padding: 14px 30px;
     font-size: 30px;
     color: #af9178;
-    transition: 0.5s;
+    transition: 0.2s;
 }
 
 nav li a:hover {
     background-color: #294c60;
 }
 
-#top_banner img {
-    width: 1885px;
+#intro_content {
+    float: left;
+    text-align: left;
+    width: 500px;
+    padding-left: 450px;
 }
 
 #intro_content h1 {
-    float: left;
-    font-size: 80px;
+    font-size: 50px;
 }
 
-#intro_content img {
-    float: left;
-    padding-left: 1000px;
+
+#top_banner img {
+    width: 1885px;
+    position: relative;
+    width: 100%;
+    transition: transform 0.3s ease;
+    z-index: 1;
 }
 
+#baking img {
+    width: 550px;
+    float: left;
+    padding-left: 45px;
+}
+
+#special_deals {
+    float: left;
+    padding-left: 800px;
+}
+
+#special_deals h1 {
+    font-size: 100px;;
+}

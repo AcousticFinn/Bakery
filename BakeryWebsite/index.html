@@ -1,36 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="stylesheet.css">
-</head>
-<body>
-    <div id="logo">
-        <img src="images/Logo.png" alt="logo">
-    </div>
-    <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Cakes</a></li>
-            <li><a href="#">Pastries</a></li>
-            <li><a href="#">Gallery</a></li>
-            <li><a href="#">Our Staff</a></li>
-            <li><a href="#">Others</a></li>
-        </ul>
-    </nav>
-    <div id="top_banner">
-        <img src="images/mockup-bakery-bread-pastry2.jpg" alt="bakerybanner">
-    </div>
-    <div id="intro_content">
-        <h1>WHO WE ARE</h1>
-        <p>About Us
-            <br>
-            Welcome to Bloomers Bakery, where every bite is a piece of our passion. Nestled in the heart of the North Shore, our bakery has been a cherished destination for those who crave artisanal baked goods made with love and expertise.</p>
-        <img src="images/Baking.jfif" alt="baking">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="stylesheet.css">
+    </head>
+    <body>
+        <div id="index_content">
+            <div id="logo">
+                <img src="images/Logo.png" alt="logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Cakes</a></li>
+                    <li><a href="#">Pastries</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Our Staff</a></li>
+                    <li><a href="#">Others</a></li>
+                </ul>
+            </nav>
+            <div id="top_banner">
+                <img src="images/mockup-bakery-bread-pastry4.jpg" alt="bakerybanner">
+            </div>
+            <div id="intro_content">
+                <h1>Our Identity</h1>
+                <h2>About Us</h2>
+                    
+                <p>Welcome to Bloomers Bakery, where every bite is a piece of our passion. Nestled in the heart of the North Shore, our bakery has been a cherished destination for those who crave artisanal baked goods made with love and expertise.
+                    <br><br>
+                    Founded in 12, Bloomers started as a small, family-owned bakery with a big dream in the heart of the Garden of Eden. Over the small years, we've grown, but our commitment to quality and tradition has remained the same. Each recipe is a labor of love, passed down through generations and perfected over time.
+                </p>
+            </div>
+            <div id="baking">
+                <img src="images/Baking.jfif" alt="baking">
+            </div>
+            <div id="special_deals">
+                <h1>SPECIAL DEALS</h1>
+            </div>
+        </div>
+        <footer>
 
-    </div>
-</body>
+        </footer>
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                const topBanner = document.getElementById('top_banner');
+                const nav = document.querySelector('nav');
+                
+                window.addEventListener('scroll', function () {
+                    if (window.scrollY > nav.offsetHeight) {
+                        topBanner.classList.add('hide-banner');
+                    } else {
+                        topBanner.classList.remove('hide-banner');
+                    }
+                });
+            });
+        </script>
+    </body>
 </html>
