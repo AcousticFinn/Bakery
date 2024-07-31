@@ -39,24 +39,15 @@
             </div>
             <div id="special_deals">
                 <h1>SPECIAL DEALS</h1>
+                <div id="special_deals_img">
+                    <img src="" alt="">
+                    <img src="" alt="">
+                    <img src="" alt="">
+                </div>
             </div>
         </div>
         <footer>
 
         </footer>
-        <script>
-            document.addEventListener('DOMContentLoaded', function () {
-                const topBanner = document.getElementById('top_banner');
-                const nav = document.querySelector('nav');
-                
-                window.addEventListener('scroll', function () {
-                    if (window.scrollY > nav.offsetHeight) {
-                        topBanner.classList.add('hide-banner');
-                    } else {
-                        topBanner.classList.remove('hide-banner');
-                    }
-                });
-            });
-        </script>
     </body>
 </html>
